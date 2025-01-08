@@ -1,4 +1,3 @@
-/* TODO - add your code to create a functional React component that renders a login form */
 
 import React, { useState } from 'react';
 import {useAddLoginMutation} from './userSlice'
@@ -21,13 +20,13 @@ const LoginPage = () => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <input
+      <input placeholder='Email'
         label="Email"
         type="text"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
       />
-      <input
+      <input placeholder='Password'
         label="Password"
         type="password"
         value={password}

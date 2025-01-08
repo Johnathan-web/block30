@@ -1,4 +1,37 @@
 img{
-  width: 200px;
+  width: 300px;
   height: auto;
+  border: #4CAF50;
 }
+
+body {
+  font-family: 'Arial, sans-serif';
+  background-color: #f60909;
+  margin: 0;
+  padding: 0;
+  display: flex;
+ justify-content: center; 
+}
+
+
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  
+}
+
+
